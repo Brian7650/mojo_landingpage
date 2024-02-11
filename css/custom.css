@@ -151,6 +151,12 @@ button {
     color: #181818;
 }
 
+.font-weight-normal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /********** copyright **********/
 #copyright {
     background: #8758FF!important;
