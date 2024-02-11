@@ -139,6 +139,18 @@ button {
     background-color: #f2f2f2;
   }
 
+.btn-block {
+    background-color: #181818;
+    color:#f2f2f2;
+}
+.form-title {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 3rem;
+    font-weight: 650;
+    line-height: 1.5;
+    color: #181818;
+}
+
 /********** copyright **********/
 #copyright {
     background: #8758FF!important;
