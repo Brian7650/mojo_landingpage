@@ -1,0 +1,203 @@
+/********** common setting **********/
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+    background-color: #5CB8E4 !important;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-purple {
+    background: #f2f2f2;
+    color: #8758FF;
+}
+
+.cta-purple:hover {
+    color: #ffffff;
+    background: #5CB8E4;
+}
+
+.cta-blue {
+    background: #f2f2f2;
+    color: #181818;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #5CB8E4;
+}
+
+.cta-ghost {
+    border: 2px solid #181818 !important;
+    color: #181818;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #8758FF;
+    border: 2px solid #8758FF !important;
+}
+
+#banner {
+    background-size: cover;
+}
+
+.blk-blue-btn:hover {
+    color: #F2F2F2;
+    background-color: #181818;
+}
+/********** banner **********/
+#banner header {
+    overflow: hidden;
+}
+
+#banner header img {
+    max-width: 80px;
+}
+
+/********** feature (skew background) **********/
+.feature img {
+    width: 100%;
+    max-width: 580px;
+}
+
+#feature-first {
+    background: linear-gradient(168deg, #181818 0%, #5CB8E4 0);
+    color:#F2F2F2;
+}
+
+#feature-second {
+    background: linear-gradient(168deg, #181818 0%, #5CB8E4 0);
+    color: #F2F2F2;
+}
+
+#feature-third {
+    background: linear-gradient(168deg, #181818 0%, #181818 0);
+    color: #f2f2f2;
+}
+
+#feature-fourth {
+    background: linear-gradient(168deg, #181818 0%, #181818 0);
+    color: #f2f2f2;
+}
+
+#feature-fifth {
+    background: linear-gradient(168deg, #181818 0%, #f2f2f2 0);
+    color: #181818;
+}
+
+#feature-sixth {
+    background: linear-gradient(168deg, #181818 0%, #f2f2f2 0);
+    color: #181818;
+}
+
+/******************************FOOTER START*******************************************************/
+
+
+.jumbotron-1 {
+    background: #8758FF!important;
+}
+/********** form **********/
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 170px 0px;
+    background-color: #8758FF;
+  }
+
+  .form-container {
+    background-color: #f2f2f2;
+  }
+
+/********** copyright **********/
+#copyright {
+    background: #8758FF!important;
+    padding: 2rem 3rem;
+}
+
+#copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #f2f2f2;
+    transition: .4s ease;
+}
+
+#copyright #social-media a i {
+    color: #8758FF;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+    background: #5CB8E4;
+}
+
+#copyright #social-media a:hover i {
+    color: #5CB8E4;
+}
+
+
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
+
+/* ****Title********** */
+
+.title-logo {
+    color: #F2F2F2;
+    padding-left: 20px;
+    padding-top: 15px;;
+}
+
+.robo {
+    margin-left:30px;
+}
+
+/* Black & Blue Section */
+/* .blueblacksection {
+    color:#f2f2f2;
+} */
+
+.btn-coupon-white {
+    color: #8758FF;
+    background-color: #F2F2F2;
+}
+.blk-blue-btn {
+    color: #181818;
+    background-color: #f2f2f2;
+}
