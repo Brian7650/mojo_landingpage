@@ -1,30 +1,24 @@
 {
   "name": "mojo_landingpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Landingpage",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Brian7650/mojo_landingpage.git"
+    "url": "git+https://github.com/Brian7650/mojo_landingpage.git"
   },
-  "author": "Brian B",
+  "author": "Brian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brian7650/mojo_landingpage/issues"
   },
   "homepage": "https://github.com/Brian7650/mojo_landingpage#readme",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "build": "^0.1.4",
-    "dotenv": "^16.4.2",
-    "express": "^4.18.2",
-    "requests": "^0.3.0"
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2"
   }
 }
