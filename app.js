@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", function (request, response) {
-  response.sendFile(__dirname + "/signup.html");
+  response.sendFile(__dirname + "/index.html");
 });
 
 app.post("/", function (req, res) {
