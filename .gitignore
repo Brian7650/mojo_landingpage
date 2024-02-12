@@ -38,3 +38,5 @@ public
 *.sublime-project
 *.sublime-workspace
 sftp-config.json
+
+.font-awesome-4.7.0
